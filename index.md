@@ -11,7 +11,7 @@
 </p>
  
 <p>
-<h2><img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/key.png">Public Key Cryptography</h2>
+<img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/key.png"><h2>Public Key Cryptography</h2>
 The concept of <i>public key cryptography</i>(also know as <i>asymmetric cryptography</i>) was proposed by Merkle, Diffie, and Hellman in the mid-1970s<a href="#diffie1976">[2]</a>. After the concept proposal, one of the earliest and most important public-key cryptosystems is invented by Adleman, Rivest, and Shamir in 1977. The cryptosystem is named after their initials, <i>RSA</i><a href="#rivest">[5]</a>. RSA Algorithm is widely used among numerous public key algorithms such as <i>Diffie-Hellman key exchange, Digital Signature Algorithm, </i>and <i>Elliptic Curve Digital Signature Algorithm</i>. Public key cryptography is extensively used in the software world to provide digital signatures to numerous authentication types, from software updates to online transactions.
 </p>
 
