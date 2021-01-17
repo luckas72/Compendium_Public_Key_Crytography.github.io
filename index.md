@@ -66,8 +66,9 @@ To compute the solution, they took over five months of calendar time with approx
 <br>
 for the year *Y* in which the number *D* digits would be factored. It is an extrapolation of the historical data about when different numbers were factors<a href="#rivest">[5]</a>. RSA Algorithm is composed as the following:
 
-![RSA Algorithm](/RSA.png)
-
+<p align="center">
+<img alt="RSA Algorithm" title="algorithm step for RSA" src="RSA.png">
+</p>
 
 
 <h2>Public key management solution</h2>
