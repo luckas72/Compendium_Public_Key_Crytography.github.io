@@ -1,3 +1,7 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
 <h1>Public Key Cryptography<h1>
 
 <p>
@@ -18,7 +22,7 @@ Why is it called <i>public</i>, when we want to avoid the exposure of the messag
 An important role of public-key encryption is to deal with the distribution of keys. In this respect, there are two different aspects of using public-key encryption:
 <ol>
   <li>Distribution of public keys;</li>
-  <li>Using the public key to encrypt a message and distribute private keys<a href="#mollin"<[4]</a>.</li>
+  <li>Using the public key to encrypt a message and distribute private keys<a href="#mollin">[4]</a>.</li>
 </ol>
 <br>
 The following analysis of these two aspects.
@@ -32,7 +36,7 @@ The solution to this problem is to use public-key certificates. A public-key cer
 <h3>Key distribution</h3>
 When using traditional encryption, two parties' essential requirement to communicate securely is to share the key. Suppose Bob wants to create a message request to exchange emails securely with the other party. Here, "the other party" refers to someone who can access the Internet or share other networks with Bob. Assuming Bob wants to use a traditional password to do this, Bob and his correspondent (Alice) must build a channel to share a unique key that no one else knows. 
 
-How did they do it? If Alice is in Bob's next room, Bob can generate the key, write it on paper, store it on a disk, and then give it to Alice. However, if Alice is in Europe or the other side of the world, what should Bob do? He can encrypt the key with traditional encryption methods and send it to Alice by email. But this means that Bob and Alice must share a key to encrypt this new key. Bob and anyone else who uses this new email package face the same problem as their potential correspondents: any pair of correspondents must share a unique key<a href="#mollin"<[4]</a>.
+How did they do it? If Alice is in Bob's next room, Bob can generate the key, write it on paper, store it on a disk, and then give it to Alice. However, if Alice is in Europe or the other side of the world, what should Bob do? He can encrypt the key with traditional encryption methods and send it to Alice by email. But this means that Bob and Alice must share a key to encrypt this new key. Bob and anyone else who uses this new email package face the same problem as their potential correspondents: any pair of correspondents must share a unique key<a href="#mollin">[4]</a>.
 
 One solution to this problem is to use the Different-Hellman key exchange. This method is indeed widely used<a href="#diffie1998"<[1]</a>. However, this scheme also has its shortcomings. For example, the simplest form of Differ-Hellman cannot provide authentication for two communicators.
 A good alternative is to use public-key certificates. When Bob wants to communicate with Alice, he can follow the steps below :
@@ -53,10 +57,12 @@ The idea of the RSA encryption algorithm was initially to create a mathematical 
             50191954852900733772482278352 5742386454014691736602477652346609.
 ```
 
+
+
 To compute the solution, they took over five months of calendar time with approximately 30 years of processor time on a machine of 2.2GHz Opteron processors. RSA Laboratories proposed several new and more difficult factoring challenges. One of them is of a 617-digit number and was estimated to be factored in 2041. The estimation follows a unique formula that was given by Richard Brent at Oxford University Computing Laboratory:
-\begin{equation}
+\(
     Y=13.24D^{1/3}+1928.6
-\end{equation}
+\)
 for the year $Y$ in which the number $D$ digits would be factored. It is an extrapolation of the historical data about when different numbers were factors\cite{rivest1983cryptographic}. RSA Algorithm is composed as the following:
 
 \fbox{\begin{minipage}{43em}\label{alg::RSA}
