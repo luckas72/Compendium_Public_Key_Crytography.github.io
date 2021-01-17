@@ -13,7 +13,7 @@
 <p>
  <h2 id="pkc">
   <a>
-   <img width=2% height=2% alt="Key" title="Key icon" src="/icons/key.png">
+   <img width=2% height=2% alt="Key" title="Key icon" src="icons/key.png">
 
    <!--<img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/key.png"> -->
   </a>
