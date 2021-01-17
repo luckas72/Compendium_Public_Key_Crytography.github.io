@@ -3,7 +3,7 @@
 
  
 <p>
-<h2>Introduction</h2>
+<h2 id="intro">Introduction</h2>
  Cryptography is not a modern product. It existed a long time ago to protect the sensitive message, especially for communication between kingdoms or warfare. There existed two main types of classical cipher coding methods, namely replacement and substitution. Rearrange the letters in the plain-text, the letters themselves do not change, but their positions have changed. The password made in this way is called a replacement password. The simplest replacement password is to reverse the letters' order in the plain text and then cut it into a fixed-length letter group. The substitution password is to replace characters in plain text with other characters. 
  </p>
  <p>
@@ -11,7 +11,7 @@
 </p>
  
 <p>
-<h2><img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/key.png">Public Key Cryptography</h2>
+<h2 id="pkc"><img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/key.png">Public Key Cryptography</h2>
 The concept of <i>public key cryptography</i>(also know as <i>asymmetric cryptography</i>) was proposed by Merkle, Diffie, and Hellman in the mid-1970s<a href="#diffie1976">[2]</a>. After the concept proposal, one of the earliest and most important public-key cryptosystems is invented by Adleman, Rivest, and Shamir in 1977. The cryptosystem is named after their initials, <i>RSA</i><a href="#rivest">[5]</a>. RSA Algorithm is widely used among numerous public key algorithms such as <i>Diffie-Hellman key exchange, Digital Signature Algorithm, </i>and <i>Elliptic Curve Digital Signature Algorithm</i>. Public key cryptography is extensively used in the software world to provide digital signatures to numerous authentication types, from software updates to online transactions.
 </p>
 
@@ -21,7 +21,7 @@ The concept of <i>public key cryptography</i>(also know as <i>asymmetric cryptog
 
 
 <p>
-<h2><img width=2% height=2% alt="Important icon" title="Important icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/important.png">Importance</h2>
+<h2 id="impo"><img width=2% height=2% alt="Important icon" title="Important icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/important.png">Importance</h2>
 An important role of public-key encryption is to deal with the distribution of keys. In this respect, there are two different aspects of using public-key encryption:
 <ol>
   <li>Distribution of public keys;</li>
@@ -29,7 +29,7 @@ An important role of public-key encryption is to deal with the distribution of k
 </ol>
 </p><p>
 The following analysis of these two aspects.
-<h3><img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/ct.png">Public key certificate</h3>
+<h3 id="pkct"><img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/ct.png">Public Key Certificate</h3>
 Public-key encryption means publishing a key to everyone; therefore, if there is a widely accepted public key algorithm (such as RSA), any participant can send his key to other participants or broadcast his key to the group. Although this method is very convenient, it also has a big disadvantage: anyone can forge public announcements; that is, a user can pretend to be user <i>A</i> to send public keys or broadcast public keys to other participants. It takes time for user <i>A</i> discovers the forgery and warn other participants. The forger can read the encrypted message trying to send <i>A</i> and use the fake public key for authentication.
 </p>
 
@@ -38,7 +38,7 @@ The solution to this problem is to use public-key certificates. A public-key cer
 </p>
 
 <p>
-<h3>Key distribution</h3>
+<h3 id="keydis">Key Distribution</h3>
 When using traditional encryption, two parties' essential requirement to communicate securely is to share the key. Suppose Bob wants to create a message request to exchange emails securely with the other party. Here, "the other party" refers to someone who can access the Internet or share other networks with Bob. Assuming Bob wants to use a traditional password to do this, Bob and his correspondent (Alice) must build a channel to share a unique key that no one else knows. 
 </p>
 <p>
@@ -58,7 +58,7 @@ A good alternative is to use public-key certificates. When Bob wants to communic
 </ol>
 </p>
 
-<h3><img width=2% height=2% alt="Algorithm icon" title="Algorithm icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/algo.png">RSA cryptosystem</h3>
+<h3 id="rsacry"><img width=2% height=2% alt="Algorithm icon" title="Algorithm icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/algo.png">RSA Cryptosystem</h3>
 <p>
 The idea of the RSA encryption algorithm was initially to create a mathematical trapdoor based on generating a long digit number by multiplying some large prime numbers. It is difficult to go in the opposite direction, which is factoring large numbers. It is feasible to compute the factor of a product within 100 to 200 digits long numbers in modern computers. In 2005, the research team of F.Bahr, M.Boehm, J.Franke, and T.Kleinjung earned a $20,000 prize from RSA Laboratories for factoring out the following 193-digit number:
 
@@ -80,12 +80,12 @@ To compute the solution, they took over five months of calendar time with approx
 
 for the year <i>Y</i> in which the number <i>D</i> digits would be factored. It is an extrapolation of the historical data about when different numbers were factors<a href="#rivest">[5]</a>. RSA Algorithm is composed as the following:
 
-<p align="center">
+<p align="center" id="rsaalgo">
 <img alt="RSA Algorithm" title="algorithm step for RSA" src="RSA.png">
 </p>
 </p>
 
-<h2><img width=2% height=2% alt="Solution icon" title="Solution icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/sol.png">Public key management solution</h2>
+<h2 id="pkm"><img width=2% height=2% alt="Solution icon" title="Solution icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/sol.png">Public Key Management solution</h2>
 <p>
 From the perspective of system scalability and algorithm security, entity authentication and session key negotiation in space networks should be implemented using public-key cryptographic algorithms. First, suppose a scheme based on a symmetric cryptosystem is adopted. When the number of nodes in the network increases, the key management center needs to exchange information with each node, resulting in a lot of additional communication overhead, while the scheme based on the public key cryptosystem does not exist such a problem. 
 </p>
@@ -95,7 +95,7 @@ From the research on secure routing, secure handover, and secure transmission te
 </p>
 
 
-<h2><img width=2% height=2% alt="Future icon" title="Future of cryptography" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/future.png">Future of Cryptography</h2>
+<h2 id="ftr"><img width=2% height=2% alt="Future icon" title="Future of cryptography" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/future.png">Future of Cryptography</h2>
 <p>
 Quantum cryptography is a brand-new concept that relies on the theoretical basis of physics as the security model of cryptography. Simply put, it is based on individual photons and their inherent quantum properties to research and develop more advanced and secure new cryptographic systems. Because a quantum system cannot determine the system's quantum state without interfering with the system, and the Heisenberg uncertainty principle can almost guarantee that quantum cryptography has become an unbreakable code<a href="#ekert1991">[3]</a>.
 </p>
