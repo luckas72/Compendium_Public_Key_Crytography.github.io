@@ -11,7 +11,12 @@
 </p>
  
 <p>
- <img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/key.png" style="display:inline"> <h2 style="display:inline" id="pkc">Public Key Cryptography</h2>
+ <h2 id="pkc">
+  <a>
+   <img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/key.png"> 
+  </a>
+   Public Key Cryptography
+</h2>
 <!--
 <h2 id="pkc"><img width=2% height=2% alt="Key" title="Key icon" src="https://raw.githubusercontent.com/luckas72/Compendium_Public_Key_Crytography.github.io/gh-pages/icons/key.png">Public Key Cryptography</h2>
 -->
