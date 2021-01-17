@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+logo: PKC.jpg
 title: Public Key Cryptography Compendium
 description: A brief summary of Public Key Cryptography and its application
-logo:/PKC.jpg
+
