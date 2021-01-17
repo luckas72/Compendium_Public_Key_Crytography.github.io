@@ -11,7 +11,7 @@ A brief summary of Public Key Cryptography and its application (Mainly RSA).
 ## Table of Content
 <ol>
  <li>Introduction</li>
- <li>Public KeyC ryptography</li>
+ <li>Public Key Cryptography</li>
  <li>Importance</li>
  <ul>
   <li>Public Key Certificate</li>
