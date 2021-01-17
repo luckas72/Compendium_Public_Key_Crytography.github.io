@@ -29,11 +29,11 @@ An important role of public-key encryption is to deal with the distribution of k
 </p><p>
 The following analysis of these two aspects.
 <h3>Public key certificate</h3>
-Public-key encryption means publishing a key to everyone; therefore, if there is a widely accepted public key algorithm (such as RSA), any participant can send his key to other participants or broadcast his key to the group. Although this method is very convenient, it also has a big disadvantage: anyone can forge public announcements; that is, a user can pretend to be user *A* to send public keys or broadcast public keys to other participants. It takes time for user *A* discovers the forgery and warn other participants. The forger can read the encrypted message trying to send *A* and use the fake public key for authentication.
+Public-key encryption means publishing a key to everyone; therefore, if there is a widely accepted public key algorithm (such as RSA), any participant can send his key to other participants or broadcast his key to the group. Although this method is very convenient, it also has a big disadvantage: anyone can forge public announcements; that is, a user can pretend to be user <i>A</i> to send public keys or broadcast public keys to other participants. It takes time for user <i>A</i> discovers the forgery and warn other participants. The forger can read the encrypted message trying to send <i>A</i> and use the fake public key for authentication.
 </p>
 
 <p>
-The solution to this problem is to use public-key certificates. A public-key certificate consists of the entire data block signed by the public key plus the public key owner's user ID and a trusted third party. Usually, the third party is a certification center trusted by the user community. The user can submit his public key to this *A* through a secure channel to obtain a certificate. The user can then issue this certificate. Anyone who needs the user's public key can obtain this certificate and verify its validity with the attached trusted signature<a href="#mollin">[4]</a>.
+The solution to this problem is to use public-key certificates. A public-key certificate consists of the entire data block signed by the public key plus the public key owner's user ID and a trusted third party. Usually, the third party is a certification center trusted by the user community. The user can submit his public key to this <i>A</i> through a secure channel to obtain a certificate. The user can then issue this certificate. Anyone who needs the user's public key can obtain this certificate and verify its validity with the attached trusted signature<a href="#mollin">[4]</a>.
 </p>
 
 <p>
@@ -58,12 +58,11 @@ A good alternative is to use public-key certificates. When Bob wants to communic
 <p>
 The idea of the RSA encryption algorithm was initially to create a mathematical trapdoor based on generating a long digit number by multiplying some large prime numbers. It is difficult to go in the opposite direction, which is factoring large numbers. It is feasible to compute the factor of a product within 100 to 200 digits long numbers in modern computers. In 2005, the research team of F.Bahr, M.Boehm, J.Franke, and T.Kleinjung earned a $20,000 prize from RSA Laboratories for factoring out the following 193-digit number:
 
-
-```
-31074182404900437213507500358885679300373460228427275457201619488
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>31074182404900437213507500358885679300373460228427275457201619488
 2320644051808150455634682967172328678243791627283803341547107310
 850191954852900733772482278352 5742386454014691736602477652346609.
-```
+</code></pre></div></div>
+
 
 </p>
 <p>
@@ -75,7 +74,7 @@ To compute the solution, they took over five months of calendar time with approx
 </p>
 
 
-for the year *Y* in which the number *D* digits would be factored. It is an extrapolation of the historical data about when different numbers were factors<a href="#rivest">[5]</a>. RSA Algorithm is composed as the following:
+for the year <i>Y</i> in which the number <i>D</i> digits would be factored. It is an extrapolation of the historical data about when different numbers were factors<a href="#rivest">[5]</a>. RSA Algorithm is composed as the following:
 
 <p align="center">
 <img alt="RSA Algorithm" title="algorithm step for RSA" src="RSA.png">
