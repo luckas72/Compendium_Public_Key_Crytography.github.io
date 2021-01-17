@@ -1,7 +1,6 @@
 
-
 <h1>Public Key Cryptography<h1>
-
+ 
 <p>
 <h2>Introduction</h2>
  Cryptography is not a modern product. It existed a long time ago to protect the sensitive message, especially for communication between kingdoms or warfare. There existed two main types of classical cipher coding methods, namely replacement and substitution. Rearrange the letters in the plain-text, the letters themselves do not change, but their positions have changed. The password made in this way is called a replacement password. The simplest replacement password is to reverse the letters' order in the plain text and then cut it into a fixed-length letter group. The substitution password is to replace characters in plain text with other characters. The whole point was to carry out a special transformation of information into <i>cipher-text</i> according to the agreed rules among the parties. However, most classic methods using simple mechanical tools to protect secrets, which are undoubtedly very simple and easy to crack today. Strictly speaking, it may be difficult to be called cryptography. Consequently, people developed more sophisticated methods to encrypt messages. One of the encrypting concepts is the <i>public key cryptography</i>.
@@ -50,9 +49,9 @@ A good alternative is to use public-key certificates. When Bob wants to communic
 The idea of the RSA encryption algorithm was initially to create a mathematical trapdoor based on generating a long digit number by multiplying some large prime numbers. It is difficult to go in the opposite direction, which is factoring large numbers. It is feasible to compute the factor of a product within 100 to 200 digits long numbers in modern computers. In 2005, the research team of F.Bahr, M.Boehm, J.Franke, and T.Kleinjung earned a $20,000 prize from RSA Laboratories for factoring out the following 193-digit number:
 
 ```
-            31074182404900437213507500358885679300373460228427275457201619488
-            23206440518081504556346829671723286782437916272838033415471073108
-            50191954852900733772482278352 5742386454014691736602477652346609.
+31074182404900437213507500358885679300373460228427275457201619488
+23206440518081504556346829671723286782437916272838033415471073108
+50191954852900733772482278352 5742386454014691736602477652346609.
 ```
 
 
@@ -91,3 +90,10 @@ DNA cryptography is a new field of cryptography that has emerged with the resear
 Chaotic systems have strong pseudo-random characteristics. Their typical characteristics are sensitive dependence on the initial state of the system and control parameters, ergodicity of each state, good pseudo-randomness, and unpredictability of orbit, and continuous broadband power spectrum. The relationship between these fundamental characteristics of chaos and cryptography was mentioned in Shannon's paper as early as 1949. Two basic principles for guiding cryptographic design in cryptography were put forward: diffusion and chaos. Chaotic systems can be applied to cryptography due to their characteristics.
 
 </p>
+
+<h3>References</h3>
+<a id="#diffie1998">[1]    Whitfield Diffie. “The first ten years of public-key cryptography”. In:Proceedings of the IEEE76.5 (1988), pp. 560–577.</a>
+<a id="#diffie1976">[2]    Whitfield Diffie and Martin Hellman. “New directions in cryptography”. In:IEEE transactionson Information Theory22.6 (1976), pp. 644–654.</a>
+<a id="#ekert1991">[3]    Artur K Ekert. “Quantum cryptography based on Bell’s theorem”. In:Physical review letters67.6 (1991), p. 661.</a>
+<a id="#mollin">[4]    Richard A Mollin.RSA and public-key cryptography. CRC Press, 2002.</a>
+<a id="#rivest">[5]    Ronald L Rivest, Adi Shamir, and Leonard M Adleman.Cryptographic communications systemand method. US Patent 4,405,829. Sept. 1983.</a>
