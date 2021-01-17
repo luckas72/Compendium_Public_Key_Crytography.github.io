@@ -1,4 +1,4 @@
-# A Summary of Public Key Crytography
+# A Summary of Public Key Cryptography
 A brief summary of Public Key Cryptography and its application (Mainly RSA). 
 <p>
 <a href="LICENSE" target="_blank" title="License: MIT"><img src="/badge/License-MIT-orange.svg"></a>
