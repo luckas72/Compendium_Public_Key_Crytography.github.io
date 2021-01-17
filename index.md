@@ -36,13 +36,13 @@ When using traditional encryption, two parties' essential requirement to communi
 
 How did they do it? If Alice is in Bob's next room, Bob can generate the key, write it on paper, store it on a disk, and then give it to Alice. However, if Alice is in Europe or the other side of the world, what should Bob do? He can encrypt the key with traditional encryption methods and send it to Alice by email. But this means that Bob and Alice must share a key to encrypt this new key. Bob and anyone else who uses this new email package face the same problem as their potential correspondents: any pair of correspondents must share a unique key<a href="#mollin">[4]</a>.
 
-One solution to this problem is to use the Different-Hellman key exchange. This method is indeed widely used<a href="#diffie1998"<[1]</a>. However, this scheme also has its shortcomings. For example, the simplest form of Differ-Hellman cannot provide authentication for two communicators.
+One solution to this problem is to use the Different-Hellman key exchange. This method is indeed widely used<a href="#diffie1998">[1]</a>. However, this scheme also has its shortcomings. For example, the simplest form of Differ-Hellman cannot provide authentication for two communicators.
 A good alternative is to use public-key certificates. When Bob wants to communicate with Alice, he can follow the steps below :
 <ol>
   <li> Prepare the message;</li>
   <li> Use one-time session keys to encrypt messages using traditional encryption methods;</li>
   <li> Use Alice's public key to encrypt the session key using public-key encryption;</li>
-   <li> Attach the encrypted session key to the message and send it to Alice. Only Alice can decrypt the session key and restore the original message(Since Alice has the private key to decrypt). If Bob obtains Alice's public key through Alice's public key certificate, Bob can determine that it is a valid key <a href="#mollin"<[4]</a>.</li>
+   <li> Attach the encrypted session key to the message and send it to Alice. Only Alice can decrypt the session key and restore the original message(Since Alice has the private key to decrypt). If Bob obtains Alice's public key through Alice's public key certificate, Bob can determine that it is a valid key <a href="#mollin">[4]</a>.</li>
 </ol>
 </p>
 
