@@ -93,13 +93,13 @@ Chaotic systems have strong pseudo-random characteristics. Their typical charact
 
 <h3>References</h3>
 <p>
-<a id="diffie1998">[1]    Whitfield Diffie. “The first ten years of public-key cryptography”. In:Proceedings of the IEEE76.5 (1988), pp. 560–577.</a>
+<a id="diffie1998">[1]    Whitfield Diffie. “The first ten years of public-key cryptography”. In:<i>Proceedings of the IEEE76.5 </i>(1988), pp. 560–577.</a>
  
-<a id="diffie1976">[2]    Whitfield Diffie and Martin Hellman. “New directions in cryptography”. In:IEEE transactionson Information Theory22.6 (1976), pp. 644–654.</a>
+<a id="diffie1976">[2]    Whitfield Diffie and Martin Hellman. “New directions in cryptography”. In:<i>IEEE transactionson Information Theory22.6 </i>(1976), pp. 644–654.</a>
 
-<a id="ekert1991">[3]    Artur K Ekert. “Quantum cryptography based on Bell’s theorem”. In:Physical review letters67.6 (1991), p. 661.</a>
+<a id="ekert1991">[3]    Artur K Ekert. “Quantum cryptography based on Bell’s theorem”. In:<i>Physical review letters67.6 </i>(1991), p. 661.</a>
 
-<a id="mollin">[4]    Richard A Mollin.RSA and public-key cryptography. CRC Press, 2002.</a>
+<a id="mollin">[4]    Richard A Mollin.<i>RSA and public-key cryptography</i>. CRC Press, 2002.</a>
 
-<a id="rivest">[5]    Ronald L Rivest, Adi Shamir, and Leonard M Adleman.Cryptographic communications systemand method. US Patent 4,405,829. Sept. 1983.</a>
+<a id="rivest">[5]    Ronald L Rivest, Adi Shamir, and Leonard M Adleman.<i>Cryptographic communications systemand method</i>. US Patent 4,405,829. Sept. 1983.</a>
 </p>
