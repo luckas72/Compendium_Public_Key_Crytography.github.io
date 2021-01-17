@@ -3,7 +3,10 @@
  
 <p>
 <h2>Introduction</h2>
- Cryptography is not a modern product. It existed a long time ago to protect the sensitive message, especially for communication between kingdoms or warfare. There existed two main types of classical cipher coding methods, namely replacement and substitution. Rearrange the letters in the plain-text, the letters themselves do not change, but their positions have changed. The password made in this way is called a replacement password. The simplest replacement password is to reverse the letters' order in the plain text and then cut it into a fixed-length letter group. The substitution password is to replace characters in plain text with other characters. The whole point was to carry out a special transformation of information into <i>cipher-text</i> according to the agreed rules among the parties. However, most classic methods using simple mechanical tools to protect secrets, which are undoubtedly very simple and easy to crack today. Strictly speaking, it may be difficult to be called cryptography. Consequently, people developed more sophisticated methods to encrypt messages. One of the encrypting concepts is the <i>public key cryptography</i>.
+ Cryptography is not a modern product. It existed a long time ago to protect the sensitive message, especially for communication between kingdoms or warfare. There existed two main types of classical cipher coding methods, namely replacement and substitution. Rearrange the letters in the plain-text, the letters themselves do not change, but their positions have changed. The password made in this way is called a replacement password. The simplest replacement password is to reverse the letters' order in the plain text and then cut it into a fixed-length letter group. The substitution password is to replace characters in plain text with other characters. 
+ </p>
+ <p>
+ The whole point was to carry out a special transformation of information into <i>cipher-text</i> according to the agreed rules among the parties. However, most classic methods using simple mechanical tools to protect secrets, which are undoubtedly very simple and easy to crack today. Strictly speaking, it may be difficult to be called cryptography. Consequently, people developed more sophisticated methods to encrypt messages. One of the encrypting concepts is the <i>public key cryptography</i>.
 </p>
  
 <p>
@@ -56,7 +59,12 @@ A good alternative is to use public-key certificates. When Bob wants to communic
 The idea of the RSA encryption algorithm was initially to create a mathematical trapdoor based on generating a long digit number by multiplying some large prime numbers. It is difficult to go in the opposite direction, which is factoring large numbers. It is feasible to compute the factor of a product within 100 to 200 digits long numbers in modern computers. In 2005, the research team of F.Bahr, M.Boehm, J.Franke, and T.Kleinjung earned a $20,000 prize from RSA Laboratories for factoring out the following 193-digit number:
 
 
->310741824049004372135075003588856793003734602284272754572016194882320644051808150455634682967172328678243791627283803341547107310850191954852900733772482278352 5742386454014691736602477652346609.
+```
+31074182404900437213507500358885679300373460228427275457201619488
+2320644051808150455634682967172328678243791627283803341547107310
+850191954852900733772482278352 5742386454014691736602477652346609.
+```
+
 </p>
 <p>
 To compute the solution, they took over five months of calendar time with approximately 30 years of processor time on a machine of 2.2GHz Opteron processors. RSA Laboratories proposed several new and more difficult factoring challenges. One of them is of a 617-digit number and was estimated to be factored in 2041. The estimation follows a unique formula that was given by Richard Brent at Oxford University Computing Laboratory:
