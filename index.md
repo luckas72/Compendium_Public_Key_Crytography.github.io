@@ -58,9 +58,11 @@ The idea of the RSA encryption algorithm was initially to create a mathematical 
 
 To compute the solution, they took over five months of calendar time with approximately 30 years of processor time on a machine of 2.2GHz Opteron processors. RSA Laboratories proposed several new and more difficult factoring challenges. One of them is of a 617-digit number and was estimated to be factored in 2041. The estimation follows a unique formula that was given by Richard Brent at Oxford University Computing Laboratory:
 <br>
-<a align="center">
-![Formula from Richard Brent](/RichardBrendFormula.png)
-</a>
+
+<p align="center">
+<img alt="Formula from Richard Brent" title="formula to estimate" src="RichardBrendFormula.png">
+</p>
+
 <br>
 for the year *Y* in which the number *D* digits would be factored. It is an extrapolation of the historical data about when different numbers were factors<a href="#rivest">[5]</a>. RSA Algorithm is composed as the following:
 
