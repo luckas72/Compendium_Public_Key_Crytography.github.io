@@ -47,23 +47,21 @@ A good alternative is to use public-key certificates. When Bob wants to communic
 
 <h3>RSA cryptosystem</h3>
 The idea of the RSA encryption algorithm was initially to create a mathematical trapdoor based on generating a long digit number by multiplying some large prime numbers. It is difficult to go in the opposite direction, which is factoring large numbers. It is feasible to compute the factor of a product within 100 to 200 digits long numbers in modern computers. In 2005, the research team of F.Bahr, M.Boehm, J.Franke, and T.Kleinjung earned a $20,000 prize from RSA Laboratories for factoring out the following 193-digit number:
-<br>
-```
-31074182404900437213507500358885679300373460228427275457201619488
-23206440518081504556346829671723286782437916272838033415471073108
-50191954852900733772482278352 5742386454014691736602477652346609.
-```
-<br>
+
+
+>310741824049004372135075003588856793003734602284272754572016194882320644051808150455634682967172328678243791627283803341547107310850191954852900733772482278352 5742386454014691736602477652346609.
+
+
 
 
 To compute the solution, they took over five months of calendar time with approximately 30 years of processor time on a machine of 2.2GHz Opteron processors. RSA Laboratories proposed several new and more difficult factoring challenges. One of them is of a 617-digit number and was estimated to be factored in 2041. The estimation follows a unique formula that was given by Richard Brent at Oxford University Computing Laboratory:
-<br>
+
 
 <p align="center">
 <img alt="Formula from Richard Brent" title="formula to estimate" src="RichardBrendFormula.png">
 </p>
 
-<br>
+
 for the year *Y* in which the number *D* digits would be factored. It is an extrapolation of the historical data about when different numbers were factors<a href="#rivest">[5]</a>. RSA Algorithm is composed as the following:
 
 <p align="center">
@@ -74,7 +72,7 @@ for the year *Y* in which the number *D* digits would be factored. It is an extr
 <h2>Public key management solution</h2>
 <p>
 From the perspective of system scalability and algorithm security, entity authentication and session key negotiation in space networks should be implemented using public-key cryptographic algorithms. First, suppose a scheme based on a symmetric cryptosystem is adopted. When the number of nodes in the network increases, the key management center needs to exchange information with each node, resulting in a lot of additional communication overhead, while the scheme based on the public key cryptosystem does not exist such a problem. 
-<br>
+
 There are fewer key operations when the number of nodes is increased or decreased. The scalability is robust; secondly, the security of public-key cryptographic algorithms is generally much higher than that of symmetric cryptographic algorithms that can effectively improve the security scheme's security. Finally, adopting a key management scheme based on public-key cryptosystems has been tested in practical applications for many years and is also the main development direction in the future <a href="#ekert1991">[3]</a>.
 From the research on secure routing, secure handover, and secure transmission technology, it can be seen that public keys are mainly used for mutual authentication and session key negotiation between nodes in the protocol process and to ensure the confidentiality of interactive information under certain conditions. Integrity and non-repudiation. The public key management solution focuses on solving key generation, distribution, update, and revocation.
 </p>
@@ -83,13 +81,13 @@ From the research on secure routing, secure handover, and secure transmission te
 <h2>Future of Cryptography</h2>
 <p>
 Quantum cryptography is a brand-new concept that relies on the theoretical basis of physics as the security model of cryptography. Simply put, it is based on individual photons and their inherent quantum properties to research and develop more advanced and secure new cryptographic systems. Because a quantum system cannot determine the system's quantum state without interfering with the system, and the Heisenberg uncertainty principle can almost guarantee that quantum cryptography has become an unbreakable code<a href="#ekert1991">[3]</a>.
-<br>
+
 Post-quantum cryptography and quantum cryptography are two sides of the same coin. According to the current development trend, it is expected that large quantum computers will run successfully around 2020, and all public-key cryptographic algorithms used to protect data security in the network will be breached. However, it is 2020, and this computer does not seem to exist yet. At present, theoretical analysis is based on 1997. The algorithm proposed by Shor can already conquer RSA, DSA, and ECDSA using quantum computing. Nevertheless, this does not mean that the use of classical cryptosystems to protect information is hopeless. Judging from the theories and algorithms provided by current cryptography, it is there are still several cryptosystems that quantum computing cannot conquer.
-<br>
+
 Also, there are other cryptographic systems, such as DNA codes and chaotic codes. However, most of these systems are still theoretical, without practical application, and research is relatively unpopular<a href="#ekert1991">[3]</a>.
-<br>
+
 DNA cryptography is a new field of cryptography that has emerged with the research of DNA computing in recent years. Its characteristic is to use DNA as the information carrier and modern biotechnology as the realization tool to tap the inherent high storage density, high parallelism, and low consumption of DNA. Many people believe that it will be possible to parallel traditional cryptography and quantum cryptography. Become the three major branches of cryptography. However, to keep pace with the well-developed traditional cryptography and the theoretically complete quantum cryptography, it still needs a long-term theoretical framework and practical operation. At this stage, the research on DNA cryptography is gradually unfolding in academia.
-<br>
+
 Chaotic systems have strong pseudo-random characteristics. Their typical characteristics are sensitive dependence on the initial state of the system and control parameters, ergodicity of each state, good pseudo-randomness, and unpredictability of orbit, and continuous broadband power spectrum. The relationship between these fundamental characteristics of chaos and cryptography was mentioned in Shannon's paper as early as 1949. Two basic principles for guiding cryptographic design in cryptography were put forward: diffusion and chaos. Chaotic systems can be applied to cryptography due to their characteristics.
 
 </p>
