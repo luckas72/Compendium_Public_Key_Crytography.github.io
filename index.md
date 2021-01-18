@@ -9,7 +9,10 @@
  <p>
  The whole point was to carry out a special transformation of information into <i>cipher-text</i> according to the agreed rules among the parties. However, most classic methods using simple mechanical tools to protect secrets, which are undoubtedly very simple and easy to crack today. Strictly speaking, it may be difficult to be called cryptography. Consequently, people developed more sophisticated methods to encrypt messages. One of the encrypting concepts is the <i>public key cryptography</i>.
 </p>
- 
+ <h2>Real life situation without using encryption</h2>
+ <div align="center"> <img alt="Conversation without using encryption" title="Silly talk without encryption" src="img/conv_wo_en.jpg"></div>
+ <h2>Unreal life situation using encryption</h2>
+  <div align="center"> <img alt="Conversation using encryption" title="Silly talk using encryption" src="img/conv_w_eng.jpg"></div>
 <p>
  <h2 id="pkc">
    <img width="4%" height="4%" alt="Key" title="Key icon" src="icons/key.png">
