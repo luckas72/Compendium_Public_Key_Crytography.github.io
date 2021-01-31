@@ -1,6 +1,6 @@
 
 <h1>Public Key Cryptography</h1> 
-
+<b style="background-color:red;">Friendly Reminder: This article is only for informative purpose, it does not hold strong authority as reference.(Nowadays people cite whatever website they found.)</b>
  
 <p>
 <h2 id="intro">Introduction</h2>
