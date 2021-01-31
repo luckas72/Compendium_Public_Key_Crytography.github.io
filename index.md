@@ -133,3 +133,11 @@ Chaotic systems have strong pseudo-random characteristics. Their typical charact
 
 <li id="rivest">[5]    Ronald L Rivest, Adi Shamir, and Leonard M Adleman.<i>Cryptographic communications systemand method</i>. US Patent 4,405,829. Sept. 1983.</li>
 </ul>
+
+
+
+
+<!-- Hit counter from: https://smallseotools.com/visitor-hit-counter/ -->
+<a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="a16df646e547308d13473a773fb0b90d|5|page|1|#ea5050|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+
+
